@@ -5,7 +5,7 @@ This project demonstrates how to programmatically interact with REST APIs to ret
 ## 1. Clone the repository
 
 Bash
-git clone https://github.com/yourusername/job-data-api-project.git
+git clone [https://github.com/yourusername/job-data-api-project.git](https://github.com/your-username/your-repo-name.git)
 ## 2. Navigate to the project folder
 
 Bash
