@@ -2,24 +2,25 @@
 This project demonstrates how to programmatically interact with REST APIs to retrieve, process, and analyze professional job market data. It transitions from basic API connectivity tests using space exploration data to a focused analysis of technical roles and geographic demand across the United States.
 
 ## Getting Started
-1. Clone the repository
+## 1. Clone the repository
 
-## Bash
+Bash
 git clone https://github.com/yourusername/job-data-api-project.git
-2. Navigate to the project folder
+## 2. Navigate to the project folder
 
-## Bash
+Bash
 cd job-data-api-project
-3. Install required libraries
+
+## 3. Install required libraries
 Ensure you have Python installed, then run:
 
-## Bash
+Bash
 pip install requests pandas openpyxl pillow
 Note: These libraries handle API requests, data manipulation, and Excel file generation.
 
-4. Launch Jupyter Notebook
+## 4. Launch Jupyter Notebook
 
-## Bash
+Bash
 jupyter notebook
 Open Collecting Data Using APIs.ipynb to view the analysis and code execution.
 
