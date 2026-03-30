@@ -1,4 +1,4 @@
-## 📊 Project: Collecting Job Data Using APIs
+## 📊 Project: **Collecting Job Data Using APIs**
 ## 📌 Overview
 This project demonstrates the end-to-end process of programmatically interacting with REST APIs to retrieve, process, and analyze professional job market data.
 
@@ -13,7 +13,7 @@ The workflow transitions from foundational API connectivity tests (using space e
 
 * Automated Reporting: Programmatically generate structured `.xlsx` reports using `pandas` and `openpyxl`.
 
-##🛠️ Tech Stack & Skills
+## 🛠️ Tech Stack & Skills
 * Language: Python
 
 * Libraries: * `requests` (HTTP Interaction)
@@ -26,7 +26,7 @@ The workflow transitions from foundational API connectivity tests (using space e
 
 * Environment: Jupyter Notebook
 
-🚀 Execution Guide
+## 🚀 Execution Guide
 # 1. Environment Setup
   Clone the repository and install the necessary dependencies:
 
@@ -43,7 +43,7 @@ Bash
 jupyter notebook
 Open: `Collecting Data Using APIs.ipynb`
 
-🧠 Project Insights & Skills Learned
+## 🧠 Project Insights & Skills Learned
 * Technical Problem Solving: Designed iterative functions to traverse large datasets and compile aggregate statistics.
 
 * Data Cleaning: Developed logic to normalize data, ensuring that varied naming conventions for technologies (e.g., "python" vs "Python") are captured accurately.
@@ -57,5 +57,5 @@ Open: `Collecting Data Using APIs.ipynb`
 
 * Multi-Source Aggregation: Expand the pipeline to consolidate data from multiple job board APIs (LinkedIn, Indeed, etc.) simultaneously.
 
-📩 Contact
+## 📩 Contact
 Genesis Adriel Segovia Email: genesisadriel.segovia@outlook.com
