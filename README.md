@@ -1,30 +1,50 @@
 ## Project: Collecting Job Data Using APIs
+This project demonstrates how to programmatically interact with REST APIs to retrieve, process, and analyze professional job market data. It transitions from basic API connectivity tests using space exploration data to a focused analysis of technical roles and geographic demand across the United States.
 
-This project showcases my ability to programmatically interact with REST APIs to retrieve, process, and analyze professional job market data. The workflow starts with basic API connection tests using space exploration data and progresses to an in-depth analysis of technical roles and geographic demand. It demonstrates both foundational and practical data engineering skills.
+## Getting Started
+1. Clone the repository
 
-## Features
-* API Data Retrieval: Fetch live JSON data from external web services using Python’s requests library.
-* Technical Skill Analysis: Automatically count and summarize job postings for technologies such as Python, and SQL.
-* Geographic Filtering: Identify job availability across major U.S. hubs, including Washington, D.C., and Los Angeles.
-* Data Export: Transform raw JSON data into structured Excel spreadsheets (.xlsx) using pandas and openpyxl for easy sharing and reporting.
+## Bash
+git clone https://github.com/yourusername/job-data-api-project.git
+2. Navigate to the project folder
 
-## Dataset
-The dataset is retrieved from an IBM Cloud endpoint and contains detailed professional metadata:
+## Bash
+cd job-data-api-project
+3. Install required libraries
+Ensure you have Python installed, then run:
 
-* Job Title: Official designation of the role.
-* Key Skills: Technical competencies required (e.g., Python, C++, MySQL).
-* Location: City of the job posting.
-* Metadata: Additional details such as Industry, Role Category, and Experience Required.
-  
-## Technical Stack
-* Language: Python 3.14+
-* Libraries: requests, pandas, openpyxl, PIL, json
-* Environment: Jupyter Notebook
+## Bash
+pip install requests pandas openpyxl pillow
+Note: These libraries handle API requests, data manipulation, and Excel file generation.
 
-## Outcome
+4. Launch Jupyter Notebook
 
-This project provides a hands-on example of collecting and analyzing real-time professional data, transforming it into actionable insights, and preparing it for reporting or further analysis.
+## Bash
+jupyter notebook
+Open Collecting Data Using APIs.ipynb to view the analysis and code execution.
+
+## Project Insights
+## Key Takeaway: 
+Automating data collection via APIs allows for real-time analysis of job market trends, significantly reducing the manual effort required to track demand for specific technical skills.
+
+## Skills Learned:
+
+* API Integration: Utilizing the requests library to fetch JSON data from REST endpoints.
+
+* Data Parsing: Navigating complex nested JSON structures to extract specific attributes like Key Skills and Location.
+
+* Data Cleaning: Implementing case-insensitive filtering to accurately count technology mentions within datasets.
+
+* Automated Reporting: Using pandas and openpyxl to programmatically generate structured Excel reports.
+
+* Technical Problem Solving: Designing functions to iterate through large datasets and compile aggregate statistics.
+
+## Future Enhancements
+* Regex Refinement: Implement Regular Expressions (Regex) to ensure single-letter technologies like "C" do not capture unrelated strings.
+
+* Data Visualization: Integrate Matplotlib or Seaborn to create visual dashboards of job demand by city.
+
+* Multi-Source Aggregation: Expand the script to pull and compare data from multiple job board APIs simultaneously.
 
 ## Contact
-
-📧 genesisadriel.segovia@outlook.com
+genesisadriel.segovia@outlook.com
