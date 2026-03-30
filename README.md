@@ -4,7 +4,7 @@ This project showcases my ability to programmatically interact with REST APIs to
 
 ## Features
 * API Data Retrieval: Fetch live JSON data from external web services using Python’s requests library.
-* Technical Skill Analysis: Automatically count and summarize job postings for technologies such as Python, Java, and SQL.
+* Technical Skill Analysis: Automatically count and summarize job postings for technologies such as Python, and SQL.
 * Geographic Filtering: Identify job availability across major U.S. hubs, including Washington, D.C., and Los Angeles.
 * Data Export: Transform raw JSON data into structured Excel spreadsheets (.xlsx) using pandas and openpyxl for easy sharing and reporting.
 
